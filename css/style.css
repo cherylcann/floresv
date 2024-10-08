@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins',cursive;
+}
+html {
+    overflow: hidden !important;
+}
+body{
+    overflow: hidden;
+    color: azure;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    /* padding-top: -30; */
+}
+
+.heart-btn {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.sub3 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    transform: rotate(-45deg);
+    text-decoration: none;
+    margin-top: 32px;
+    text-align: center;
+    margin-left: 32px;
+    transition: 0.2s;
+}
+.heart-btn p {
+    color: white;
+    margin-left: 43px;
+    margin-top: -90px;
+    position: absolute;
+}
+.sub1, .sub2 {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.sub1 {
+    left: 0;
+}
+
+.sub2 {
+    left: 64px;
+    top: 0;
+}
+
+.heart-btn:hover .sub1,
+.heart-btn:hover .sub2,
+.heart-btn:hover .sub3 {
+  background-color: rgb(204, 0, 0);
+  transition: 0.2s;
+}
+
+.heart-btn:active .sub1,
+.heart-btn:active .sub2,
+.heart-btn:active .sub3 {
+  background-color: rgb(149, 2, 2);
+  transition: 0.2s;
+}
