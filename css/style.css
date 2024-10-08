@@ -18,8 +18,8 @@ body{
 }
 
 .heart-btn {
-    width: 200px;
-    height: 200px;
+    width: 164px;
+    height: 153px;
     position: absolute;
 }
 .sub3 {
@@ -38,7 +38,7 @@ body{
 .heart-btn p {
     color: white;
     margin-left: 43px;
-    margin-top: -90px;
+    margin-top: -87px;
     position: absolute;
 }
 .sub1, .sub2 {
